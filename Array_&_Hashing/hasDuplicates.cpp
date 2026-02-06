@@ -1,3 +1,5 @@
+//link: https://neetcode.io/problems/duplicate-integer/question
+
 class Solution {
 public:
     bool hasDuplicate(vector<int>& nums) {
