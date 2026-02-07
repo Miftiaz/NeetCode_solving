@@ -44,4 +44,4 @@ Each folder contains cpp files named after the problem with a link of the proble
 
 You can track which topics have been completed and which are in progress here.  
 
-- ✅ `Arrays_and_Hashing ( 7 / 9 )/`
+- 🚧 Arrays_and_Hashing ( 8 / 9 )
