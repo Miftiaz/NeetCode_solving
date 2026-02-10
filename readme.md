@@ -45,4 +45,4 @@ Each folder contains cpp files named after the problem with a link of the proble
 You can track which topics have been completed and which are in progress here.  
 
 - ✅ Arrays_and_Hashing ( 9 / 9 )
-- 🚧 Two_Pointers ( 2 / 5 )
+- 🚧 Two_Pointers ( 3 / 5 )
