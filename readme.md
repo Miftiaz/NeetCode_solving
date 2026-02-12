@@ -46,4 +46,4 @@ You can track which topics have been completed and which are in progress here.
 
 - ✅ Arrays_and_Hashing ( 9 / 9 )
 - ✅ Two_Pointers ( 5 / 5 )
-- 🚧 Stack ( 6 / 6)
+- 🚧 Stack ( 0 / 6)
