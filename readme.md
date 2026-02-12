@@ -12,6 +12,7 @@ I also maintain **short notes and explanations** for each problem in this Google
 
 - `Arrays_and_Hashing/` – Problems related to arrays, hashmaps, and basic data structures  
 - `Two_Pointers/` – Problems using two-pointer techniques  
+- `Sliding_Window` - 
 - `Stack/` – Stack-based problems  
 - `Binary_Search/` – Problems solved using binary search  
 - `Trees/` – Tree traversal and manipulation problems  
@@ -46,4 +47,4 @@ You can track which topics have been completed and which are in progress here.
 
 - ✅ Arrays_and_Hashing ( 9 / 9 )
 - ✅ Two_Pointers ( 5 / 5 )
-- 🚧 Stack ( 0 / 6)
+- 🚧 Sliding_window ( 1 / 6)
