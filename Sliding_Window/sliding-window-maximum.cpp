@@ -56,8 +56,6 @@ public:
         for(int i = 0; i<n-k+1; i++){
             res[i] = max(left_max[i+k-1], right_max[i]);
         }
-
         return res;
-
     }
 };
