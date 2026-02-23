@@ -49,4 +49,4 @@ You can track which topics have been completed and which are in progress here.
 - ✅ Two_Pointers ( 5 / 5 )
 - ✅ Sliding_window ( 6 / 6)
 - 🚧 Stack ( 5 / 6 )
-- 🚧 Binary_Search ( 2 / 7 )
+- 🚧 Binary_Search ( 3 / 7 )
