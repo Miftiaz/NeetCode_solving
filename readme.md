@@ -50,4 +50,4 @@ You can track which topics have been completed and which are in progress here.
 - ✅ Sliding_window ( 6 / 6)
 - 🚧 Stack ( 5 / 6 )
 - 🚧 Binary_Search ( 3 / 7 )
-- 🚧 Linked_List ( 2 / 11 )
+- 🚧 Linked_List ( 3 / 11 )
