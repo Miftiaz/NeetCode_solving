@@ -51,3 +51,4 @@ You can track which topics have been completed and which are in progress here.
 - 🚧 Stack ( 5 / 6 )
 - 🚧 Binary_Search ( 3 / 7 )
 - 🚧 Linked_List ( 6 / 11 )
+- 🚧 Trees ( 1 / 15 )
