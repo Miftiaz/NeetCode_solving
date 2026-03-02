@@ -16,7 +16,7 @@ public:
         while(l <= r) {
             if(target == nums[l]) return l;
             if(target == nums[r]) return r;
-            int m = (l + r)/2;
+            int m = l+ (r - l)/2;
             if (target < nums[m]) {
                 if (target < nums[l] && nums[l] < nums[m]){
                     l = m + 1;
@@ -69,7 +69,7 @@ public:
         int l = 0, r = nums.size() - 1;
 
         while (l <= r) {
-            int mid = (l + r) / 2;
+            int m = l+ (r - l)/2;
             if (target == nums[mid]) {
                 return mid;
             }
