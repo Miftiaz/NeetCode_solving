@@ -7,26 +7,63 @@ Inorder traversal
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
-        if(!root) return 0;
-        stack<TreeNode*>s;
-        s.push(root);
-        TreeNode* node = root;
-        while(!s.empty()) {
-            while(node) {
-                if(node->left) s.push(node->left);
-                node = node->left;
+        stack<TreeNode*> stack;
+        TreeNode* curr = root;
+
+        while (!stack.empty() || curr != nullptr) {
+            while (curr != nullptr) {
+                stack.push(curr);
+                curr = curr->left;
             }
-            node = s.top();
-            s.pop();
+            curr = stack.top();
+            stack.pop();
             k--;
-            if (k == 0) return node->val;
-            if(node->right){
-                s.push(node->right);
-                node = node->right;
+            if (k == 0) {
+                return curr->val;
+            }
+            curr = curr->right;
+        }
+
+        return -1;
+    }
+};
+
+/*
+
+Morris Traversal O(1) space.
+
+*/
+
+class Solution {
+public:
+    int kthSmallest(TreeNode* root, int k) {
+        if(!root) return -1;
+        TreeNode* curr = root;
+
+        while(curr) {
+            if(!curr->left) {
+                k--;
+                if(k==0) return curr->val;
+                curr = curr->right;
             }
             else{
-                node = nullptr;
-            } 
+                TreeNode* pre = curr->left;
+                while(pre->right && pre->right != curr) {
+                     pre = pre->right;
+                }
+                if(!pre->right){
+                    pre->right = curr;
+                    curr = curr->left;
+                }
+                else {
+                    pre->right = nullptr;
+                    k--;
+                    if(k==0) return curr->val;
+                    curr = curr->right;
+                }
+            }
         }
+
+        return -1;
     }
 };
