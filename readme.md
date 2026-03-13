@@ -18,6 +18,7 @@ I also maintain **short notes and explanations** for each problem in this Google
 - `Trees/` – Tree traversal and manipulation problems  
 - `Graphs/` – Graph algorithms  
 - `Dynamic_Programming/` – DP problems
+- `Heap_Priority Queue/` - Heap problems
 
 Each folder contains cpp files named after the problem with a link of the problem at the top.  
 
@@ -52,3 +53,4 @@ You can track which topics have been completed and which are in progress here.
 - 🚧 Binary_Search ( 3 / 7 )
 - 🚧 Linked_List ( 6 / 11 )
 - 🚧 Trees ( 13 / 15 )
+- 🚧 Heap_Priority Queue ( 1 / 7)
