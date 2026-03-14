@@ -53,4 +53,4 @@ You can track which topics have been completed and which are in progress here.
 - 🚧 Binary_Search ( 3 / 7 )
 - 🚧 Linked_List ( 6 / 11 )
 - 🚧 Trees ( 13 / 15 )
-- 🚧 Heap_Priority Queue ( 1 / 7)
+- 🚧 Heap_Priority Queue ( 2 / 7)
