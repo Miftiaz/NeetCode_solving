@@ -53,7 +53,7 @@ n is the length of the stones array and w is the maximum value in the stones arr
 1. Find the largest element.
 2. make an array (buckets) of zeros of size maxStone + 1
 3. fill in the buckets with which weighted stone occurs in what number.
-    e.g if [3, 3, 4], bucket = [0, 0, 0, 2, 1, 0]
+    e.g if [3, 3, 4], bucket = [0, 0, 0, 2, 1]
 4. Define first and second (largest and second largest) for now. (these are indice of the bucket)
 5. Iterate from the largest index of the array (maxStone one)
 6. Iterate until first gets to 0 index.
